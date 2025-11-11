@@ -140,6 +140,7 @@ nav ul li a {
 
 .kecil {
   text-transform: lowercase;
-  font-size: 1.5rem; /* opsional: bisa disesuaikan agar proporsinya pas */
+  font-size: 2.5rem; /* opsional: bisa disesuaikan agar proporsinya pas */
   letter-spacing: 1px;
 }
+
