@@ -1,18 +1,15 @@
+:root {
+  --dark-green: #2F4F4F;
+  --orange: #FF9C37;
+  --white: #FFFFFF;
+  --navy: #00153F;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
-}
-
-.top-bar {
-  background-color: #FF9C37;
-  color: #fff;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.9rem;
+  background-color: var(--white);
+  color: var(--dark-green);
 }
 
 .logo {
@@ -21,14 +18,23 @@ body {
   vertical-align: middle;
 }
 
+.top-bar {
+  background-color: var(--dark-green);
+  color: var(--white);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
 .social-icons img {
   width: 24px;
-  height: auto;
   margin-left: 10px;
 }
 
 nav {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 nav ul {
@@ -44,26 +50,36 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #2F4F4F;
+  color: var(--dark-green);
   text-decoration: none;
   padding: 15px;
   display: block;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .hero {
   position: relative;
-  background: linear-gradient(to right, #00153F, #fff);
-  color: white;
+  background-color: var(--navy);
+  color: var(--white);
   text-align: center;
   padding: 100px 20px;
 }
 
+.hero .welcome {
+  color: var(--orange);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
 .hero h1 {
-  font-size: 2.2rem;
-  z-index: 2;
-  position: relative;
-  line-height: 1.5;
+  font-size: 2.5rem;
+  margin-top: 0;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .background-text {
@@ -83,35 +99,39 @@ nav ul li a {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 40px 20px;
-  background-color: #fff;
+  background-color: var(--white);
+}
+
+.feature-card {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .feature-card img {
   width: 60px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.feature-card img {
-  width: 50px;
   margin-bottom: 10px;
 }
 
 .feature-card h3 {
   margin: 10px 0;
   font-size: 1.2rem;
+  color: var(--dark-green);
+  text-transform: capitalize;
 }
 
 .feature-card button {
-  background-color: #FF9C37;
-  color: white;
+  background-color: var(--orange);
+  color: var(--white);
   border: none;
   padding: 10px 20px;
   margin-top: 10px;
   cursor: pointer;
   border-radius: 5px;
   font-weight: bold;
+  text-transform: uppercase;
 }
-
-
-
