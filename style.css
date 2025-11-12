@@ -185,11 +185,12 @@ nav ul li a {
   background-color: var(--white);
   border-radius: 20px;
   padding: 40px 20px;
-  width: 800px;
+  width: 1500px;
   margin-left: 100px;
   margin-right: 100px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
 
 
 
