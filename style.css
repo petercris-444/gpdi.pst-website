@@ -63,10 +63,11 @@ nav ul li a {
 
 .hero {
   position: relative;
-  background-color: var(--navy); /* #00153F */
+  background-color: var(--navy);
   color: var(--white);
   text-align: center;
-  padding: 100px 20px 180px; /* tambahkan padding bawah */
+  padding: 100px 20px 200px; /* tambahkan padding bawah agar latar biru lebih panjang */
+  z-index: 1;
 }
 
 .hero .welcome {
@@ -97,16 +98,14 @@ nav ul li a {
 }
 
 .features {
+  position: relative;
+  z-index: 2;
+  margin-top: -120px; /* geser ke atas agar fitur masuk ke latar biru */
+  padding: 60px 20px 40px;
+  background-color: var(--white);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 40px 20px;
-  background-color: var(--white);
-  margin-top: -100px; /* overlap ke hero */
-  padding-top: 140px; /* beri ruang agar konten tidak terpotong */
-  background-color: var(--white);
-  z-index: 2;
-  position: relative;
 }
 
 .feature-card {
@@ -148,5 +147,6 @@ nav ul li a {
   font-size: 2.5rem; /* opsional: bisa disesuaikan agar proporsinya pas */
   letter-spacing: 1px;
 }
+
 
 
