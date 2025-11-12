@@ -63,10 +63,10 @@ nav ul li a {
 
 .hero {
   position: relative;
-  background-color: var(--navy); /* solid background */
+  background-color: var(--navy); /* #00153F */
   color: var(--white);
   text-align: center;
-  padding: 100px 20px;
+  padding: 100px 20px 180px; /* tambahkan padding bawah */
 }
 
 .hero .welcome {
@@ -102,6 +102,11 @@ nav ul li a {
   flex-wrap: wrap;
   padding: 40px 20px;
   background-color: var(--white);
+  margin-top: -100px; /* overlap ke hero */
+  padding-top: 140px; /* beri ruang agar konten tidak terpotong */
+  background-color: var(--white);
+  z-index: 2;
+  position: relative;
 }
 
 .feature-card {
@@ -143,4 +148,5 @@ nav ul li a {
   font-size: 2.5rem; /* opsional: bisa disesuaikan agar proporsinya pas */
   letter-spacing: 1px;
 }
+
 
