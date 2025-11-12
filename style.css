@@ -66,7 +66,7 @@ nav ul li a {
   background-color: var(--navy);
   color: var(--white);
   text-align: center;
-  padding: 60px 20px 10px; /* tambahkan padding bawah agar latar biru lebih panjang */
+  padding: 100px 20px 100px; /* tambahkan padding bawah agar latar biru lebih panjang */
   z-index: 1;
 }
 
@@ -191,6 +191,7 @@ nav ul li a {
   margin-right: auto;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
 
 
 
