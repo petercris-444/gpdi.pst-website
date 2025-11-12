@@ -107,8 +107,9 @@ nav ul li a {
   background-color: var(--white);
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 20px;
+  overflow-x: auto;
 }
 
 .feature-card {
@@ -121,8 +122,9 @@ nav ul li a {
 }
 
 .feature-card img {
-  width: 60px;
+  width: 200px;
   margin-bottom: 10px;
+  flex-shrink: 0;
 }
 
 .feature-card h3 {
@@ -185,12 +187,12 @@ nav ul li a {
   border-radius: 20px;
   padding: 40px 20px;
   max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   position: relative;
   z-index: 2;
   border-top: 8px solid var(--navy); 
 }
+
 
 
