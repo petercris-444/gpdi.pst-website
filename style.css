@@ -52,17 +52,16 @@ nav ul li a {
   letter-spacing: 1px;
 }
 
-/* 🔷 Hero Section */
 .hero {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background-color: var(--navy);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 100px 20px 120px;
+  padding-bottom: 120px;
   position: relative;
   z-index: 1;
 }
@@ -103,9 +102,8 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* 🔷 Fitur Section */
 .features-wrapper {
-  margin-top: -60px; /* masuk ke latar biru setengah bagian */
+  margin-top: -100px;
   position: relative;
   z-index: 2;
   background-color: var(--white);
@@ -157,3 +155,4 @@ nav ul li a {
   font-weight: bold;
   text-transform: uppercase;
 }
+
