@@ -178,6 +178,19 @@ nav ul li a {
   letter-spacing: 1px;
 }
 
+.features-wrapper {
+  margin-top: -30px; /* NEGATIF: fitur naik ke dalam latar biru */
+  position: relative;
+  z-index: 2;
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 
 
 
