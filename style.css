@@ -109,7 +109,6 @@ nav ul li a {
   justify-content: center;
   flex-wrap: nowrap;
   gap: 20px;
-  overflow-x: auto;
 }
 
 .feature-card {
@@ -119,6 +118,7 @@ nav ul li a {
   width: 200px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  flex-shrink: 0;
 }
 
 .feature-card img {
@@ -193,6 +193,7 @@ nav ul li a {
   z-index: 2;
   border-top: 8px solid var(--navy); 
 }
+
 
 
 
