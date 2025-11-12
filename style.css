@@ -66,7 +66,7 @@ nav ul li a {
   background-color: var(--navy);
   color: var(--white);
   text-align: center;
-  padding: 80px 20px 100px;
+  padding: 60px 20px 60px;
   z-index: 1;
   overflow: hidden;
 }
@@ -102,7 +102,7 @@ nav ul li a {
 .features {
   position: relative;
   z-index: 2;
-  margin-top: -60px; /* ini yang membuat latar biru menyentuh 1/3 fitur */
+  margin-top: -40px; /* ini yang membuat latar biru menyentuh 1/3 fitur */
   padding: 60px 20px 40px;
   background-color: var(--white);
   display: flex;
@@ -178,6 +178,7 @@ nav ul li a {
   margin-top: 10px;
   letter-spacing: 1px;
 }
+
 
 
 
