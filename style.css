@@ -181,34 +181,4 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-.content-section {
-  padding: 60px 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.content-section h2 {
-  font-size: 2rem;
-  color: var(--navy);
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.content-section p,
-.content-section ul {
-  font-size: 1rem;
-  color: var(--dark-green);
-  line-height: 1.8;
-}
-
-.content-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.content-section ul li {
-  margin: 8px 0;
-}
 
